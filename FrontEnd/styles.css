@@ -6,6 +6,14 @@ body{
     width: 800px;
     margin: auto;
 }
+.container::before{
+    display: table;
+    content: "";
+}
+.container::after{
+    display: table;
+    content: "";
+}
 ul {
     list-style: none;
     padding: 0;
@@ -66,7 +74,10 @@ a:hover{
 /*List end*/
 /*List start*/
 .main-nav.list .item{
-    padding: 38px 20px 18px 0;
+    padding: 38px 0 18px 0;
+    margin-left: 20px;
+}
+.main-nav.list .item .text{  
     color: #8F8F8F;
 }
 .main-nav.list .item.active{
