@@ -2,8 +2,17 @@ body{
     margin: 0;
 }
 .container{
-    width: 800px;
+    width: 830px;
     margin: auto;
+    padding: 0 15px;
+}
+.container::before{
+    display: table;
+    content: "";
+}
+.container::after{
+    display: table;
+    content: "";
 }
 .float-left{
     float: left;
@@ -48,3 +57,88 @@ body{
     text-align: center;
 }
 /*Copyright end*/
+/*Services start*/
+.services{
+    background: url(imgs/bg1.png) no-repeat #ffffff 0 0;
+    background-size: cover;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.list-service{
+    list-style: none;
+    margin: 0 -15px;
+    padding: 0;
+}
+.list-service .item{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.list-service .item .title{
+    color:#75AAF5;
+    margin: 20px 15px 15px;
+}
+.list-service .item .desc{
+    color:#DADADA;
+    margin: 0 15px;
+}
+/*Services end*/
+/*icon start  */
+.icon-edit{
+    background-color: #4F94F3;
+    display: block;
+    width: 90px;
+    height: 90px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 50%;
+}
+.icon-edit:before {
+    background-image: url(imgs/pencil.svg);
+    content: "";
+    display: block;
+    width: 90px;
+    background-size: 90px;
+    background-position: center center;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.icon-laptop{
+    background-color: #D94748;
+    display: block;
+    width: 90px;
+    height: 90px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 50%;
+}
+.icon-laptop:before{
+    background-image:url(imgs/laptop.svg);
+    content: "";
+    display: block;
+    width: 90px;
+    background-size: 90px;
+    background-position: center center;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.icon-shopping-basket{
+    background-color: #EBBB11;
+    display: block;
+    width: 90px;
+    height: 90px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 50%;
+}
+.icon-shopping-basket:before{
+    background-image:url(imgs/laptop.svg);
+    content: "";
+    display: block;
+    width: 90px;
+    background-size: 90px;
+    background-position: center center;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+/*icon end  */
