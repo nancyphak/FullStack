@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float:right;
+}
+/*Brand start*/
+.brand{
+    margin: 18px 0;
+    display: block;
+}
+.brand{
+    text-decoration: none;
+}
+.brand:hover{
+    text-decoration: none;
+}
+.brand .logo{
+    width: 40px;
+    vertical-align: middle;
+}
+.brand .text{
+    margin-left: 10px;
+}
+/*Brand end*/
+/*Page start*/
+.page .header{
+    border: 1px solid red;
+    height: 72px;
+}
+.page .content{
+     border: 1px solid red;
+}
+.page .footer{
+     border: 1px solid red;
+}
+/*Page end*/
+/*Copyright start*/
+.copyright{
+    margin: 27px 0 38px;
+    text-align: center;
+}
+/*Copyright end*/
