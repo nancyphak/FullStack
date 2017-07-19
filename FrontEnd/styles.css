@@ -48,3 +48,25 @@ body{
     text-align: center;
 }
 /*Copyright end*/
+/*Shopping cart start  */
+.shopping-cart{
+    margin-bottom: 50px;
+}
+.shopping-cart .title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #7E7F81;
+}
+.shopping-cart .content{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+.shopping-cart .content .content-summary{
+    padding: 0 50px;
+}
+.shopping-cart .content .content-summary .title-summary{
+    font-size: 18px;
+    color: #7E7F81;
+}
+/*Shopping cart end  */
