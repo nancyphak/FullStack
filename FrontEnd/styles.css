@@ -1,9 +1,31 @@
 body{
     margin: 0;
+    font-size: 14px;
 }
 .container{
     width: 800px;
     margin: auto;
+}
+.container::before{
+    display: table;
+    content: "";
+}
+.container::after{
+    display: table;
+    content: "";
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #8F8F8F;
+}
+a:hover{
+    text-decoration: none;
 }
 .float-left{
     float: left;
@@ -13,14 +35,8 @@ body{
 }
 /*Brand start*/
 .brand{
-    margin: 18px 0;
+    padding: 18px 0;
     display: block;
-}
-.brand{
-    text-decoration: none;
-}
-.brand:hover{
-    text-decoration: none;
 }
 .brand .logo{
     width: 40px;
@@ -28,6 +44,9 @@ body{
 }
 .brand .text{
     margin-left: 10px;
+    color: #888888;
+    font-size: 26px;
+    vertical-align: middle;
 }
 /*Brand end*/
 /*Page start*/
@@ -48,3 +67,21 @@ body{
     text-align: center;
 }
 /*Copyright end*/
+/*List start*/
+.list .item{
+     display: inline-block;
+}
+/*List end*/
+/*List start*/
+.main-nav.list .item{
+    padding: 38px 0 18px 0;
+    margin-left: 20px;
+}
+.main-nav.list .item .text{  
+    color: #8F8F8F;
+}
+.main-nav.list .item.active{
+    border-bottom: 2px solid #4D85D2;
+    padding-bottom: 16px;
+}
+/*List end*/
