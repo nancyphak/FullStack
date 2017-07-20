@@ -2,15 +2,15 @@ body{
     margin: 0;
     font-size: 14px;
 }
-.container{
+.container-size{
     width: 800px;
     margin: auto;
 }
-.container::before{
+.container-size::before{
     display: table;
     content: "";
 }
-.container::after{
+.container-size::after{
     display: table;
     content: "";
 }
@@ -27,13 +27,13 @@ a{
 a:hover{
     text-decoration: none;
 }
-.float-left{
+.block-left{
     float: left;
 }
-.float-right{
+.block-right{
     float:right;
 }
-/*Brand start*/
+/*brand start*/
 .brand{
     padding: 18px 0;
     display: block;
@@ -48,8 +48,8 @@ a:hover{
     font-size: 26px;
     vertical-align: middle;
 }
-/*Brand end*/
-/*Page start*/
+/*brand end*/
+/*page start*/
 .page .header{
     border: 1px solid red;
     height: 72px;
@@ -60,28 +60,31 @@ a:hover{
 .page .footer{
      border: 1px solid red;
 }
-/*Page end*/
-/*Copyright start*/
+/*page end*/
+/*copyright start*/
 .copyright{
     margin: 27px 0 38px;
     text-align: center;
 }
-/*Copyright end*/
-/*List start*/
+/*copyright end*/
+/*list start*/
+.list{
+    list-style: none;
+}
 .list .item{
      display: inline-block;
 }
-/*List end*/
-/*List start*/
-.main-nav.list .item{
+/*list end*/
+/*main nav start*/
+.main-nav .item{
     padding: 38px 0 18px 0;
     margin-left: 20px;
 }
-.main-nav.list .item .text{  
+.main-nav .item .text{  
     color: #8F8F8F;
 }
-.main-nav.list .item.active{
+.main-nav .item.active{
     border-bottom: 2px solid #4D85D2;
     padding-bottom: 16px;
 }
-/*List end*/
+/*main nav end*/
