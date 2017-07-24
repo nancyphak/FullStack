@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+/*page start*/
+.page .header{
+    border: 1px solid red;
+    height: 72px;
+}
+.page .content{
+     border: 1px solid red;
+}
+.page .footer{
+     border: 1px solid red;
+}
+/*page end*/
