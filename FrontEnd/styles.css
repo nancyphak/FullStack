@@ -1,12 +1,100 @@
 body{
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*slider start*/
+.slider{
+    background: url(img/bg.png) no-repeat center center;
+    background-size:cover; 
+    position: relative;
+    overflow: hidden;
+}
+.slider .next{
+    position: absolute;
+    top:50%;
+    right: 100px;
+    transform: translateY(-50%); 
+    font-size: 59px;
+    color: #959BA1;
+}
+.slider .next::before{
+    content: "\27E9";
+}
+.slider .prev{
+    position: absolute;
+    top:50%;   
+    left: 100px;
+    transform: translateY(-50%);
+    font-size: 59px;
+    color: #959BA1;
+}
+.slider .prev::before{
+    content: "\27E8";
+}
+.slider .slider-content{
+    padding: 0 117px;
+}
+/*slider end*/
+/*service-summary start*/
+.service-summary{
+    display: flex;
+    align-items: center;
+}
+.service-summary .photo{
+    padding: 30px;
+}
+.service-summary .content{
+    align-self: center;
+    padding: 30px;
+}
+.service-summary .content .title{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.service-summary .content .desc{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+/*service-summary end*/
+/*btn-sign-up start*/
+.btn-sign-up{
+    border: 1px solid #4D94F3;
+    background-color: #4D94F3;
+    padding: 7px 10px;
+}
+.btn-sign-up .icon{
+    color: #468DF1;
+    vertical-align: middle;
+    display: inline-block;
+}
+.btn-sign-up .icon:before{
+    content: "\2713";
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    line-height: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: block;
+}
+.btn-sign-up .text{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/*btn-sign-up end*/
 /*page start*/
 .page .header{
     border: 1px solid red;
     height: 72px;
 }
-.page .content{
+.page > .content{
      border: 1px solid red;
 }
 .page .footer{
