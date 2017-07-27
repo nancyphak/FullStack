@@ -7,6 +7,69 @@ a{
 a:hover{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+/*multi-columns start*/
+.multi-columns{
+    width: 100%;
+}
+.multi-columns .col-3{
+    width: 30%;
+    float: left;
+}
+.multi-columns .col-7{
+    width: 70%;
+    float: left;
+}
+.multi-columns .pull-left{}
+.multi-columns .pull-left>*{
+    float: left;
+}
+.multi-columns .pull-right{}
+.multi-columns .pull-right>*{
+    float:right;
+}
+/*multi-columns end*/
+/*brand start*/
+.brand{
+    padding: 18px 0;
+    display: block;
+}
+.brand .logo{
+    width: 40px;
+    vertical-align: middle;
+}
+.brand .text{
+    margin-left: 10px;
+    font-size: 26px;
+    vertical-align: middle;
+    color: #252525;
+}
+/*brand end*/
+/*main-nav start*/
+.main-nav{
+}
+.main-nav .item{
+    display: inline-block;
+    padding: 36px 0 15px;
+    margin: 0 15px;
+}
+.main-nav .item .text{
+    color: #787878;
+    font-size: 14px;
+}
+.main-nav .item.active{
+    border-bottom: 3px solid #4F8EE6;
+}
+.main-nav .item.active .text{}
+/*main-nav end */
 /*slider start*/
 .slider{
     background: url(img/bg.png) no-repeat center center;
@@ -90,9 +153,10 @@ a:hover{
 }
 /*btn-sign-up end*/
 /*page start*/
-.page .header{
+.page > .header{
     border: 1px solid red;
     height: 72px;
+    padding: 0 117px;
 }
 .page > .content{
      border: 1px solid red;
