@@ -152,6 +152,35 @@ li{
     vertical-align: middle;
 }
 /*btn-sign-up end*/
+/*shopping cart start */
+.shopping-cart{
+    margin-bottom: 50px;
+    padding: 0 117px;
+}
+.shopping-cart__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #7E7F81;
+}
+.shopping-cart__content{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+.shopping-cart__content__photo{
+    max-width: 371px;
+    max-height: 279xp;
+    vertical-align: middle;
+}
+.shopping-cart__content__summary{
+    padding: 0 50px;
+}
+.shopping-cart__content__summary__title{
+    font-size: 18px;
+    margin-top: 0;
+    color: #7E7F81;
+}
+/*shopping cart end*/
 /*page start*/
 .page > .header{
     border: 1px solid red;
