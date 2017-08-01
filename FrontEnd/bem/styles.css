@@ -153,15 +153,16 @@ li{
 }
 /*btn-sign-up end*/
 /*page start*/
-.page > .header{
+.page{}
+.page__header{
     border: 1px solid red;
     height: 72px;
     padding: 0 117px;
 }
-.page > .content{
+.page__content{
      border: 1px solid red;
 }
-.page .footer{
+.page__footer{
      border: 1px solid red;
 }
 /*page end*/
