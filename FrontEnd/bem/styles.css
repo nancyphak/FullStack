@@ -20,21 +20,19 @@ li{
 .multi-columns{
     width: 100%;
 }
-.multi-columns .col-3{
+.multi-columns__col-3{
     width: 30%;
     float: left;
 }
-.multi-columns .col-7{
+.multi-columns__col-7{
     width: 70%;
     float: left;
 }
-.multi-columns .pull-left{}
-.multi-columns .pull-left>*{
+.pull-left > *{
     float: left;
 }
-.multi-columns .pull-right{}
-.multi-columns .pull-right>*{
-    float:right;
+.pull-right > *{
+    float: right;
 }
 /*multi-columns end*/
 /*brand start*/
@@ -42,11 +40,11 @@ li{
     padding: 18px 0;
     display: block;
 }
-.brand .logo{
+.brand__logo{
     width: 40px;
     vertical-align: middle;
 }
-.brand .text{
+.brand__text{
     margin-left: 10px;
     font-size: 26px;
     vertical-align: middle;
@@ -56,19 +54,24 @@ li{
 /*main-nav start*/
 .main-nav{
 }
-.main-nav .item{
+.main-nav__item{
     display: inline-block;
     padding: 36px 0 15px;
     margin: 0 15px;
 }
-.main-nav .item .text{
+.main-nav__item__text{
     color: #787878;
     font-size: 14px;
 }
-.main-nav .item.active{
+.main-nav__item--active{
+    display: inline-block;
+    padding: 36px 0 15px;
+    margin: 0 15px;
     border-bottom: 3px solid #4F8EE6;
 }
-.main-nav .item.active .text{}
+.main-nav__item--active__text{
+    color: #787878;
+    font-size: 14px;}
 /*main-nav end */
 /*slider start*/
 .slider{
