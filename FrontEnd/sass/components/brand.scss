@@ -1,0 +1,4 @@
+@import "./mixins/_brand.scss";
+.brand{
+    @include create-brand($brand-color);
+}

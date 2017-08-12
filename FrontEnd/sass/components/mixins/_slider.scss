@@ -1,0 +1,31 @@
+@mixin create-slider(){   
+    background: url(../img/bg.png) no-repeat center center;
+    background-size:cover; 
+    position: relative;
+    overflow: hidden;
+    &__next{
+        position: absolute;
+        top:50%;
+        right: 100px;
+        transform: translateY(-50%); 
+        font-size: 59px;
+        color: #959BA1;
+        &::before{
+            content: "\27E9";
+        }
+    }
+    &__prev{
+        position: absolute;
+        top:50%;   
+        left: 100px;
+        transform: translateY(-50%);
+        font-size: 59px;
+        color: #959BA1;
+        &::before{
+            content: "\27E8";
+        }
+    }
+    &__content{
+        padding: 0 117px;
+    }
+}

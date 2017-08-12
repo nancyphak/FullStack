@@ -1,0 +1,4 @@
+@import "./mixins/_shopping-cart.scss";
+.shopping-cart{
+    @include create-shopping-cart();
+}

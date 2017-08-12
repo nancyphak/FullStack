@@ -1,0 +1,14 @@
+@mixin create-page($background-color, $header-height: $default-page-header-height, $header-padding: $default-page-header-padding){   
+    background-color:$background-color;
+    &__header{
+        border: 1px solid red;
+        height: $header-height;
+        padding: 0 $header-padding;
+    }
+    &__content{
+        border: 1px solid red;
+    }
+    &__footer{
+        border: 1px solid red;
+    }
+}

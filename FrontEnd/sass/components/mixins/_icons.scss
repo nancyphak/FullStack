@@ -1,0 +1,53 @@
+@mixin create-icon(){
+    &-edit{
+    background-color: #4F94F3;
+    display: block;
+    width: 90px;
+    height: 90px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 50%;
+        &:before {
+            background: url(../img/pencil.svg) center no-repeat;
+            content: "";
+            display: block;
+            width: 90px; 
+            height: 90px;
+            background-size: 90px;
+        }
+    }
+    &-laptop{
+        background-color: #D94748;
+        display: block;
+        width: 90px;
+        height: 90px;
+        padding: 30px;
+        margin: auto;
+        border-radius: 50%;
+        &:before{
+            background:url(../img/laptop.svg) center no-repeat;
+            content: "";
+            display: block;
+            width: 90px;   
+            height: 90px;
+            background-size: 90px;
+        }
+    }
+    &-shopping-basket{
+        background-color: #EBBB11;
+        display: block;
+        width: 90px;
+        height: 90px;
+        padding: 30px;
+        margin: auto;
+        border-radius: 50%;
+        &:before{
+            background:url(../img/laptop.svg) center no-repeat;
+            content: "";
+            display: block;
+            width: 90px;   
+            height: 90px;
+            background-size: 90px;
+        }
+    }
+}

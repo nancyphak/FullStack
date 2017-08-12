@@ -1,0 +1,15 @@
+@mixin create-brand($brand-color){
+    
+    padding: 18px 0;
+    display: block;
+    &__logo{
+        width: 40px;
+        vertical-align: middle;
+    }
+    &__text{
+        margin-left: 10px;
+        font-size: 26px;
+        vertical-align: middle;
+        color: $brand-color;
+    }
+}

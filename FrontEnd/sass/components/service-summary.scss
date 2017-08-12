@@ -1,0 +1,4 @@
+@import "./mixins/_service-summary.scss";
+.service-summary{
+    @include create-service-summary();
+}
