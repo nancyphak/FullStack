@@ -1,0 +1,29 @@
+@mixin create-time-to-meet-astrid ($time-to-meet-astrid-color){
+    background-color: rgba(37, 46, 53, 0.9);
+    background-size: cover;
+    padding: 80px;
+
+    &__title{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: $time-to-meet-astrid-color;
+    }
+    &__time-setup{
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+        color: $time-to-meet-astrid-color;
+    }
+    &__explore{
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #A39065;
+        margin: auto;
+        display: block;
+        width: 120px;
+        color: $time-to-meet-astrid-color;
+    }
+}

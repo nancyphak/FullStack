@@ -1,4 +1,11 @@
-@import "./_list.scss";
+@mixin create-list (){
+    display: flex;     
+    list-style:none;
+    width:auto;
+    &__item{
+        display: inline-block;
+    }
+}
 @mixin create-main-nav ($main-nav-color){
     @include create-list();
     &__item{

@@ -1,11 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -15,4 +12,29 @@ ul{
 li{
     margin: 0;
     padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    &:hove{
+        text-decoration: none;
+    }
+}
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.pull-left{x
+    & > *{
+        float: left!important;
+    }
+}
+.pull-right{
+    & > *{
+        float: right!important;
+    }
 }

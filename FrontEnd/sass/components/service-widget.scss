@@ -1,0 +1,4 @@
+@import "./mixins/_service-widget.scss";
+.service-widget{
+    @include create-service-widget();
+}

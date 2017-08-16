@@ -1,0 +1,9 @@
+@mixin create-multi-columns (){
+    width: 100%;
+    @for $i from 1 through 9 {
+        &__col-#{$i} {
+            width:#{$i*10}#{'%'};
+            float: left;
+        }
+    }
+}

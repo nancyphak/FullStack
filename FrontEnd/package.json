@@ -20,5 +20,8 @@
   "homepage": "https://github.com/nancyphak/FullStack#readme",
   "dependencies": {
     "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
   }
 }

@@ -1,4 +1,4 @@
 @import "./mixins/_page.scss";
 .page{
-    @include create-page($background-color, $header-padding:$header-padding);
+    @include create-page($bg-img);
 }

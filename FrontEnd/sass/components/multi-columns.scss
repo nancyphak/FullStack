@@ -1,18 +1,4 @@
 @import "./mixins/_multi-columns.scss";
 .multi-columns{
-    width: 100%;
-    &__col-3{
-        width: 30%;
-        float: left;
-    }
-    &__col-7{
-        width: 70%;
-        float: left;
-    }
-}
-.pull-left > *{
-    float: left;
-}
-.pull-right > *{
-    float: right;
+    @include create-multi-columns();
 }

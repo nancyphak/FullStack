@@ -1,0 +1,4 @@
+@import "./mixins/_time-to-meet-astrid.scss";
+.time-to-meet-astrid{
+    @include create-time-to-meet-astrid($time-to-meet-astrid-color);
+}
