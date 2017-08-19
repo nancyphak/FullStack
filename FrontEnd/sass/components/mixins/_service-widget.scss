@@ -1,33 +1,30 @@
 @import "./_list.scss";
 @mixin create-service-widget (){
-    padding: 30px;
+    padding: 30px 40px;
     background: #ffffff;
-    &__container{
-        margin: auto 40px;
+    &__title{
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #272727;
+    }
+            
+    @include create-list();
+    &__list{
+        margin: 0 -30px;  
+    }                                                                   
+    &__item{
+        width: 33.33%;
+        padding: 30px;
+        text-align: center;
         &__title{
-            font-size: 30px;
-            text-align: center;
-            text-transform: uppercase;
+            font-size: 20px;
+            margin-top: 20px;
             color: #272727;
         }
-        &__list{
-            
-        @include create-list();
-            margin: 0 -30px;
-            &__item{
-                width: 33.33%;
-                padding: 30px;
-                text-align: center;
-                &__title{
-                    font-size: 20px;
-                    margin-top: 20px;
-                    color: #272727;
-                }
-                &__desc{
-                    font-size: 15px;
-                    margin-top: 20px;
-                }
-            }
+        &__desc{
+            font-size: 15px;
+            margin-top: 20px;
         }
     }
 }

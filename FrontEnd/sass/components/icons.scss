@@ -1,5 +1,16 @@
 @import "../../node_modules/font-awesome/scss/font-awesome.scss";
 @import "./mixins/_icons.scss";
 .icon{
-    @include create-icons($icon-color);
+    &-cal{
+        @include create-icon($icon-color);
+        @extend .fa-calculator;
+    }
+    &-chart{
+        @include create-icon($icon-color);
+        @extend .fa-line-chart;
+    }
+    &-file{
+        @include create-icon($icon-color);
+        @extend .fa-file-archive-o; 
+    }
 }

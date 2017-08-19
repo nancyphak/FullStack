@@ -1,4 +1,6 @@
 @import "./mixins/_page.scss";
 .page{
-    @include create-page($bg-img);
+    &--home{
+        @include create-page-home($bg-img);
+    }
 }

@@ -1,21 +1,5 @@
-@mixin create-icon(){
+@mixin create-icon($icon-color){
     @extend .fa;
-    @extend .fa-3x;
-}
-@mixin create-icons($icon-color){
-    &-cal{
-        @include create-icon();
-        @extend .fa-calculator;
-        color: $icon-color;
-    }
-    &-chart{
-        @include create-icon();
-        @extend .fa-line-chart;
-        color: $icon-color;
-    }
-    &-file{
-        @include create-icon();
-        @extend .fa-file-archive-o; 
-        color: $icon-color;
-    }
+    @extend .fa-3x;    
+    color: $icon-color;
 }
