@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
     "sass": "node-sass --include-path sass sass/themes/default/index.scss resources/css/style_default.css",
     "sass-blue": "node-sass --include-path sass sass/themes/blue/index.scss resources/css/style_blue.css"
   },
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/nancyphak/FullStack#readme",
   "dependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "systemjs": "^0.20.18",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.4.2"
   }
 }

@@ -162,6 +162,7 @@ li{
      border: 1px solid red;
 }
 .page .footer{
+    height: 72px;
      border: 1px solid red;
 }
 /*page end*/
