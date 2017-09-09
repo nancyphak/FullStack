@@ -7,17 +7,21 @@
 </head>
 
 <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
     <script>
         System.config({
             packages: {
                 "ts": {
-                    main:"main.js",
+                    main: "main.js",
                     defaultJsExtension: true
                 }
             }
         })
-        System.import("ts");
+        System.import("ts").catch((error) => {
+            console.log(error);
+        });
     </script>
 </body>
 
