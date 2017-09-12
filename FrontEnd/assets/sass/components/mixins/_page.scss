@@ -1,0 +1,13 @@
+@mixin createPage($borderColor:$borderColorDefault){
+    &__header{
+        border: 1px solid $borderColor;
+        height: 72px;
+    }
+    &__content{
+        border: 1px solid $borderColor;
+    }
+    &__footer{
+        border: 1px solid $borderColor;
+        height: 72px;
+    }
+}
