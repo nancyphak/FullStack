@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>demo page</title>
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
-    <body>
-        <div class="page">
-            <div class="header">
-                this is header
-            </div>
-            <div class="content">this is content</div>
-            <div class="footer">       
-                this is footer
-            </div>
-        </div>
-    </body>
+
+<head>
+    <title>demo page</title>
+    <link rel="stylesheet" href="resources/css/style_blue.css" />
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script>
+        System.config({
+            packages: {
+                "src": {
+                    main: "main.js",
+                    defaultJsExtension: true
+                }
+            }
+        });
+        System.import("src").catch((error) => {
+            console.log(error);
+        });
+    </script>
+</body>
+
 </html>

@@ -1,0 +1,27 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "sass": "node-sass --include-path sass assets/sass/themes/default/index.scss resources/css/style_default.css",
+    "sass-blue": "node-sass --include-path sass assets/sass/themes/blue/index.scss resources/css/style_blue.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nancyphak:eztek!2345@github.com/nancyphak/FullStack.git"
+  },
+  "author": "Nancy Phak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nancyphak/FullStack/issues"
+  },
+  "homepage": "https://github.com/nancyphak/FullStack#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "systemjs": "^0.20.18",
+    "typescript": "^2.5.2"
+  }
+}
